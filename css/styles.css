@@ -21,10 +21,25 @@ body {
   padding: 0;
 }
 
-/* Header */
 .link {
   text-decoration: none;
 }
+
+.hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ----------------Header------------- */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -67,7 +82,7 @@ body {
   color: var(--color-active);
 }
 
-/* Hero */
+/* --------------------Hero------------------- */
 
 .hero-section {
   color: var(--invert-color);
@@ -75,7 +90,7 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 56px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -102,10 +117,11 @@ body {
   background-color: var(--color-active);
 }
 
-/* Advantages section */
+/* ----------------Advantages section----------------- */
 
-.adventages-title {
-  color: var(--color-primary);
+/* common class for sections */
+.section-subtitle{
+color: var(--color-primary);
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -113,14 +129,19 @@ body {
   letter-spacing: 0.02em;
 }
 
-.adventages-text {
-  line-height: 1.5;
+/* common class for sections */
+.section-text{
+line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
+.adventages-title {}
+
+.adventages-text {}
+
 .section-title {
   color: var(--color-primary);
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -139,18 +160,11 @@ body {
 }
 
 .employee-name {
-  color: var(--color-primary);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .team-position {
-  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -166,7 +180,7 @@ body {
   color: var(--light-color);
 }
 
-/* Portfolio page */
+/* ------------Portfolio page------------- */
 .filter-button {
   color: var(--color-brand);
   background-color: var(--light-color);
@@ -187,16 +201,11 @@ body {
   background-color: var(--color-active);
 }
 
-/* Examples of work */
-.content-title {
-  color: var(--color-primary);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
+/* ------------Examples of work------------ */
+.content-title {}
+
 .content-category {
-  color: var(--secondary-color);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+color: var(--secondary-color);
 }
+
+ 
