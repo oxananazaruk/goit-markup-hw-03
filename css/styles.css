@@ -107,6 +107,8 @@ body {
 /* --------------------Hero------------------- */
 
 .hero-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
   color: var(--invert-color);
   background-color: var(--color-primary);
 }
@@ -264,6 +266,10 @@ body {
   padding-top: 96px;
 }
 
+.filter-btn-list {
+  margin-bottom: 72px;
+
+}
 .content-title {
 }
 
