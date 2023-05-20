@@ -52,6 +52,9 @@ body {
 }
 
 /* ----------------Header------------- */
+.header {
+border-bottom: 1px solid var(--border-color);
+}
 
 .main-nav {
   display: flex;
@@ -60,12 +63,13 @@ body {
 
 .site-nav {
   display: flex;
-  margin-left: 72px;
   gap: 40px;
 }
 
 .logo {
+  margin-right: 76px;
   display: block;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   letter-spacing: 0.03em;
