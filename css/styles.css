@@ -142,6 +142,7 @@ border-bottom: 1px solid var(--border-color);
 .hero-title {
   margin: 0 auto;
   margin-bottom: 48px;
+  max-width: 496px;
 
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -152,6 +153,7 @@ border-bottom: 1px solid var(--border-color);
 .hero-button {
   display: block;
   margin: 0 auto;
+  min-width: 169px
 
   color: var(--invert-color);
   background-color: var(--color-brand);
@@ -280,6 +282,7 @@ border-bottom: 1px solid var(--border-color);
   color: var(--light-color);
 }
 .logo-location {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -316,6 +319,7 @@ border-bottom: 1px solid var(--border-color);
 .filter-button:focus {
   color: var(--invert-color);
   background-color: var(--color-active);
+  border: 1px solid transparent;
 }
 
 /* ------------Examples of work------------ */
@@ -346,8 +350,9 @@ border-bottom: 1px solid var(--border-color);
 }
 
 .examples-descr {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  padding: 32px 16px;
   border: 1px solid var(--border-color);
   border-top: none;
 }
