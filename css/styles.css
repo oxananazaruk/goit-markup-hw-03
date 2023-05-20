@@ -53,7 +53,7 @@ body {
 
 /* ----------------Header------------- */
 .header {
-border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .main-nav {
@@ -182,7 +182,6 @@ border-bottom: 1px solid var(--border-color);
 .advantages-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-
 
 /* common class for sections */
 .section-subtitle {
